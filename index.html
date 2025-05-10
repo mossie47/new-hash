@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBE</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div><button class="sub">Submit</button></div>
+    <div class="background" id="cap">
+      <header class="nav">
+        <button class="int"><i class="fa-solid fa-bars"></i></button>
+        <div class="edge">
+          <button class="lang"><img src="amha.png" alt="" /></button>
+          <button class="refresh">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+      </header>
+      <div>
+        <div class="value">
+          <div class="h1">
+            <div class="img">img <img src="" alt="" /></div>
+            <div>
+              <p>Commercial bank of Ethiopia</p>
+              <p>The Bank You can always Rely on!</p>
+            </div>
+          </div>
+          <div class="balance">
+            <p>Balance</p>
+            <div>
+              <p class="birr">****Br.</p>
+              <span>icon</span>
+            </div>
+            <div class="account">
+              <p>Saving - 1000*****8564</p>
+              <p>May 8, 2024 2:14:21 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-box">
+          <p class="service">Service</p>
+          <div class="block">
+            <ul>
+              <li>
+                <p><i class="fa-solid fa-arrow-right-arrow-left"></i></p>
+                <button onclick="openSesemi()">Transfer</button>
+              </li>
+              <li>
+                <p><img src="utility.png" alt="" /></p>
+                <button>Utilities</button>
+              </li>
+              <li>
+                <p><i class="fa-solid fa-mobile"></i></p>
+                <button>Top Up</button>
+              </li>
+              <li>
+                <p><i class="fa-solid fa-folder"></i></p>
+                <button>Help</button>
+              </li>
+              <li>
+                <p><img src="util.png" alt="" /></p>
+                <button>Utility</button>
+              </li>
+              <li>
+                <p><i class="fa-solid fa-folder"></i></p>
+                <button>Event</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="footeer">
+        <li class="hom">
+          <p><i class="fa-solid fa-grip"></i></p>
+          <p>Home</p>
+        </li>
+        <li><i class="fa-solid fa-hand-holding-dollar"></i></li>
+        <li><i class="fa-solid fa-building-columns"></i></li>
+        <li><i class="fa-solid fa-clock-rotate-left"></i></li>
+      </ul>
+    </div>
+    <div class="container" id="main">
+      <div class="pop">
+        <div class="navigation">
+          <div class="first">
+            <div class="shield">
+              <img src="shield.png" alt="" />
+            </div>
+            <div class="tysm">
+              <h3>Thank you!</h3>
+              <p>success</p>
+            </div>
+          </div>
+          <div class="nav-btn">
+            <button class="share">
+              <i class="fa-solid fa-share-nodes"></i>
+            </button>
+            <button class="download">
+              <i class="fa-solid fa-download"></i>
+            </button>
+            <button class="close" type="button" onclick="closeSesemi()">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div>
+        <div class="body">
+          <div class="discription">
+            <h4>Message</h4>
+            <p>
+              ETB 160.00 debited from EYOSIYAS ZEWDU AYALEW for TIGEST HAILE
+              GELAN -ETB- on 05-May-2025 with transaction ID: KN26829BZSWC.
+              Total Amount debited ETB 160.00 with commmission of ETB 0 and 15%
+              VAT of ETB 0.00.
+            </p>
+          </div>
+          <div class="qrcode">
+            <img src="qrcode.png" alt="" />
+          </div>
+          <div>
+            <button class="recipt">View Receipt</button>
+          </div>
+          <footer>
+            <div class="footer"><img src="cbe.png" alt="" /></div>
+            <div class="cbe">
+              <h4>Commercial Bank Of Ethiopia</h4>
+              <p>The Bank You can always Rely on!</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    // let cap = document.getElementById("cap");
+    let torp = document.getElementById("main");
+    function openSesemi() {
+      // cap.classlist.add("newBg");
+      torp.classList.add("newContainer");
+    }
+    function closeSesemi() {
+      torp.classList.remove("newContainer");
+      // cap.classlist.remove("newBg");
+    }
+  </script>
+</html>
